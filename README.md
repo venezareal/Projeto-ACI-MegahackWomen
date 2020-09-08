@@ -1,2 +1,2 @@
 # Projeto-ACI-MegahackWomen
-Projeto desenvolvido para o hackaton MegaHack Women que visa solucionar o desafio da conta Black, a respeito de novas formas de realizar a análise de crédito para classes sociais C D e E.
+Projeto desenvolvido para o hackaton MegaHack Women que visa solucionar o desafio da conta Black, a respeito de novas formas de realizar a análise de crédito para classes sociais C D e E. Nosso modelo utiliza conceitos de machine learning para inserir o contexto social dessas classes na análise de crédito. E retorna par as fintechs financeiras se determinado grupo de pessoas está apta para obter crédito ou não.
