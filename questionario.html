@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+		<title>Protótipo Desafio Conta Black</title>
+		<meta charset="utf-8" />
+		<meta name="description" content="Site protótipo construído para o desafio da conta black do hackaton MegaHackWomen." />
+		<link rel="stylesheet" type="text/css" href="css/css.css">
+	</head>
+
+	<body>
+		
+		<input type="checkbox" id="bt_menu">
+		<label for="bt_menu">&#9776;</label>
+		
+		<nav class="menu">
+			<ul>
+				<!--<div class="alignright"><img src="Imagens/logoaci.png"></div>-->
+				<li><a href="Home.html">Início</a></li>
+				<li><a href="questionario.html">Simular Crédito</a></li>
+				<li><a href="desafio.html">Nosso Desafio</a></li>
+				<li><a href="solucao.html">Solução Proposta</a></li>
+				<li><a href="indicadores.html">Modelo ACI</a></li>
+				<li><a href="conhecanos.html">Conheça-nos</a></li>
+				
+			</ul>
+			
+		</nav>
+		
+		
+		</br></br>
+		
+		<h1>QUESTIONÁRIO SOCIOECONÔMICO</h1></br>
+		
+		
+		<form action="" method="post">
+		
+			<div>
+				<label for="name">Qual o valor desejado para empréstimo?</label>
+				<select name="valor-emprestimo" class="ls-select">
+					<option value="quinhentos">500 reais</option>
+					<option value="mil">1000 reais</option>
+					<option value="milcinc">1500 reais</option>
+					<option value="doismil">2000 reais</option>
+					<option value="doiscinc">2500 reais</option>
+					<option value="tresmil">3000 reais</option>
+					<option value="trescinc">3500 reais</option>
+					<option value="quatromil">4000 reais</option>
+					<option value="quatrocinc">4500 reais</option>
+					<option value="cincomil">5000 reais</option>
+				  </select>
+			</div>
+			<div>
+				<label for="name">Qual sua Idade? (Insira somente números)</label>
+				<input type="text" id="idade" />
+			</div>
+			<div>
+				<label for="mail">Qual seu estado civil?</label>
+				<select name="estado-civil" class="ls-select">
+					<option value="s">Solteira (o)</option>
+					<option value="c">Casada (o)</option>
+					<option value="d">Divorciada (o)</option>
+					<option value="a">Amigada (o)</option>
+				  </select>
+			</div>
+			<div>
+				<label for="mail">Quantos filhos você tem?</label>
+	
+				 <select name="qtde-filhos" class="ls-select">
+					<option value="zero">0</option>
+					<option value="um">1</option>
+					<option value="dois">2</option>
+					<option value="tres">3</option>
+					
+					<option value="quatro">4</option>
+					
+					<option value="cinco">5</option>
+					
+					<option value="seis">Mais de 5</option>
+					
+				  </select>
+			</div>
+			<div>
+				<label for="mail">Qual a sua renda? (Exemplo: 1500,00)</label>
+				<input type="msg" id="renda" />
+			</div>
+			<div>
+				<label for="msg">Qual sua escolaridade?</label>
+				 <select name="escolaridade" class="ls-select">
+					<option value="fundcomp">Ensino fundamental completo</option>
+					<option value="fundinc">Ensino fundamental incompleto</option>
+					<option value="mediocomp">Ensino médio completo</option>
+					<option value="medioinc">Ensino médio incompleto</option>
+					<option value="gradcomp">Graduação completa</option>
+					
+					<option value="gradinc">Graduação incompleta</option>
+					
+					<option value="mestrado">Mestrado</option>
+					
+					<option value="doutoradp">Doutorado</option>
+					
+				  </select>
+			</div>
+			<div>
+				<label for="msg">Qual sua profissão? (Detalhe ao máximo)</label>
+				<textarea id="profissao"></textarea>
+			</div>
+			<div>
+				<label for="msg">Qual o motivo do empréstimo? (Detalhe ao máximo)</label>
+				<textarea id="motivo"></textarea>
+			</div>
+			
+			
+			
+			<div class="button"><!--Redireciona para uma planilha que será tratada pelo modelo proposto-->
+				<button align="center" class="btn btn-green type="submit">Enviar Dados</button>
+			</div>
+		</form>
+		
+		
+		</br></br>
+		<div id="separatoria"></div>	
+	</body>
+</html>
